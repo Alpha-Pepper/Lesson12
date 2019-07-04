@@ -13,18 +13,18 @@
         <fieldset>
             <legend>Форма</legend>
             <p><label for="fname">Имя<em>*</em>
-            <input type="text" id="fname" required></p>
+            <input type="text" id="fname" name="fname" required></p>
             <p><label for="sname">Фамилия
-                <input type="text" id="sname"></label></p>
+                <input type="text" id="sname" name="sname" ></label></p>
                 <p><label for="age">Возраст
-                    <input type="number" min="0" max="100" id="age"></label></p>
+                    <input type="number" min="0" max="100" id="age" name="age" ></label></p>
                     <p><label for="bday">Дата рождения
-                        <input type="datetime-local" id="bday">
+                        <input type="datetime-local" id="bday" name="bday" >
                     </label></p>
                     <p><label for="phone">Телефон<em>*</em>
-                        <input type="tel" id="phone" required></label></p>
+                        <input type="tel" id="phone" name="phone" required></label></p>
                         <p><label for="mymail">Email<em>*</em>
-                        <input type="email" id="mymail" value="alexey.ponomarenko.89@gmail.com" required readonly></label></p>
+                        <input type="email" id="mymail" name="mymail" value="alexey.ponomarenko.89@gmail.com" required readonly></label></p>
                         <input type="submit" value="Отослать">
         </fieldset>
     </form>
